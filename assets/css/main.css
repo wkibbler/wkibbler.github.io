@@ -144,3 +144,14 @@
   border-color: transparent;
   transform: translate(-50%, 100%);
 }
+#.paragraphTopWrapper{
+    display: block;
+}
+
+@media (max-width: 500px)
+{
+    .paragraphTopWrapper
+    {
+        display: none;
+    }
+}
